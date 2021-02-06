@@ -6,3 +6,4 @@ __pycache__/
 exports/*.png
 exports/*.json
 cors.json
+.idea/**

@@ -222,7 +222,7 @@ def get_colors_dict(values_dict, colorscale, data_type):
     for name, value in values_dict.items():
         # prepend "zip" to make these names less confusing
         # when they appear in the SVG
-        svg_name = "zip{}".format(name)
+        svg_name = "{}".format(name)
 
         # divide results into 5 even percentiles
         if (value < key_label1_raw):
